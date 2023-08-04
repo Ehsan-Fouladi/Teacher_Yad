@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/photo.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="flex flex-col justify-center items-center h-screen rounded-2xl bg-gray-800">
+    <div class="bg-white rounded-xl shadow max-w-md px-4 py-8 w-96">
+        <div class="text-center font-thin mb-2 text-black text-xl">
+            <a href="index.html"><p>-<b>Teacher</b>Yad-</p></a>
+        </div>
+
+        <div class="px-5">
+            <div class="block">
+                <p class="mb-4 text-black font-semibold text-xl text-center">برای ورود به سایت ثبت نام کنید.</p>
+                <form action="../../index.html" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="flex-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent shadow-lg rounded w-full px-1 py-1" placeholder="نام کاربری">
+                    </div>
+                    <div class="mb-3 mt-1">
+                        <input type="email" class="flex-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent shadow-lg rounded w-full px-1 py-1" placeholder="ایمیل">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="flex-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent shadow-lg rounded w-full px-1 py-1" placeholder="گذرواژه">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="flex-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent shadow-lg rounded w-full px-1 py-1" placeholder="گذرواژه2">
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <div class="mt-2">
+                                <input class="accent-pink-300 focus:accent-pink-500" type="checkbox" id="agreeTerms" name="terms" value="agree">
+                                <label for="agreeTerms">
+                                    ایا با قوانین موافق هستید؟
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div>
+                            <button type="submit" class="bg-blue-500 text-white px-2 py-3 rounded transition ease-linear duration-300 hover:scale-125 hover:bg-indigo-500 focus:ring-2 focus:ring-black text-sm font-semibold shadow-lg">ثبت نام</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                </form>
+
+                <div class="text-center mt-10">
+                    <p class="text-center">- OR -</p>
+                    <a href="#" class="text-sm font-extrabold flex justify-center text-gray-200 bg-fuchsia-400 px-2 py-3 rounded-md outline outline-2 outline-offset-2 outline-purple-500">
+                        <i class="fab fa-google-plus"></i>
+                        ثبت نام با گوگل
+                    </a>
+                </div>
+
+                <div class="flex justify-center mt-5"><a href="login.html" class="text-md font-extrabold bg-sky-500 text-white px-2 py-3 rounded outline outline-2 outline-offset-2 outline-blue-600">ایا از قبل حساب کاربر داشتین؟</a></div>
+            </div>
+            <!-- /.form-box -->
+        </div><!-- /.card -->
+    </div>
+</body>
+</html>

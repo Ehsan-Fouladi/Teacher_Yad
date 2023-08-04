@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/photo.jpg" type="image/x-icon" />
+    <title>پنل کاربری</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="bg-gray-100 dark:bg-gray-800 rounded-2xl h-screen overflow-hidden relative">
+    <div class="flex items-start justify-between">
+      <!-- Navbar -->
+      <div class="h-screen hidden lg:block my-4 mr-1 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="flex items-center justify-center pt-6">
+            <img
+              class="h-10 w-10 rounded-full object-cover"
+              src="./img/photo.jpg"
+              alt="logo"/>
+          </div>
+          <nav class="mt-6">
+            <div>
+              <a
+                class="w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-l from-white to-blue-100 border-l-4 border-blue-500"
+                href="./panel.html">
+                <span class="text-left">
+                  <svg
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    viewBox="0 0 2048 1792"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"></path>
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-lg"> داشبورد </span>
+              </a>
+
+              <a
+                class="w-full font-thin text-gray-800 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+                href="./panel_create.html">
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z"
+                      clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                <span class="mx-4 text-sm font-normal"> افزودن </span>
+              </a>
+
+              <a
+                class="w-full font-thin text-gray-800 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+                href="./profile.html">
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                  </svg>
+                </span>
+                <span class="mx-4 text-sm font-normal"> پروفایل </span>
+              </a>
+              <a
+                class="w-full font-thin text-gray-800 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+                href="#">
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                      clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                <span class="mx-4 text-sm font-normal"> vip </span>
+              </a>
+            </div>
+          </nav>
+          <div class="absolute bottom-0 my-10">
+            <a
+              class="text-black hover:text-gray-500 transition-colors duration-200 flex items-center py-2 px-8"
+              href="https://github.com/Ehsan-Fouladi">
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-blue-500 h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"/>
+              </svg>
+              <span class="mx-4 text-md font-medium"> احسان فولادی </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <div class="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
+        <!-- Header -->
+        <header
+          class="w-full shadow-lg bg-white items-center h-16 rounded-2xl z-40">
+          <div
+            class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto">
+            <div
+              class="relative items-center pl-1 flex w-full lg:max-w-68 sm:pr-2 sm:ml-0">
+              <div class="container relative left-0 z-50 flex w-3/4 h-full">
+                <div class="flex justify-center items-center">
+                  <span class="flex justify-center items-center ml-3 menu lg:hidden block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6">
+                      <path
+                        fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="mobile hidden absolute mt-14 right-0 py-2 w-48 bg-white rounded-lg shadow-xl -top-4 bottom-auto">
+                    <a href="./panel.html" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">داشبورد</a>
+                    <a href="./panel_create.html" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">افزودن</a>
+                    <a href="./profile.html" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">پروفایل</a>
+                  </div>
+                </div>
+                <div
+                  class="relative flex items-center w-full lg:w-64 h-full group">
+                  <a href="#" class="font-bold text-lg hover:text-gray-600">صفحه اصلی</a>
+                </div>
+              </div>
+              <div
+                class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto">
+                <div class="relative">
+                  <div
+                    class="flex justify-center items-center flex-row-reverse">
+                    <button
+                      class="profile block border-2 border-white focus:border-sky-500 focus:outline-none rounded-full overflow-hidden">
+                      <img
+                        class="mx-auto object-cover rounded-full h-10 w-10"
+                        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&w=1000&q=80"
+                        alt="avatar"
+                      />
+                    </button>
+                    <div
+                      class="profile-menu hidden absolute mt-14 left-2 py-2 w-48 bg-white rounded-lg shadow-xl -top-4 bottom-auto">
+                      <span
+                        class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">fooehan3@gmail.com</span>
+                      <span
+                        class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">احسان فولادی</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main Area -->
+        <div class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0 flex flex-col justify-between">
+          <div class="flex flex-col flex-wrap sm:flex-row">
+            <div class="container mx-auto px-4 max-w-8xl">
+              <div class="py-8">
+                <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
+                  <h2 class="text-2xl leading-tight text-white">داشبورد</h2>
+                  <div class="text-end">
+                    <a href="#" class="text-white text-lg font-medium mr-1 hover:text-indigo-500">صفحه اصلی</a>
+                    <span class="text-white text-lg font-medium mr-1">/</span>
+                    <span class="text-white text-lg font-medium mr-1">داشبورد</span>
+                  </div>
+                </div>
+                <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                  <div
+                    class="inline-block min-w-full shadow rounded-lg overflow-hidden">
+                    <table class="min-w-full leading-normal">
+                      <thead>
+                        <tr>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 text-center bg-white border-b border-gray-200 text-gray-800 text-md uppercase">
+                            نام
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                           رشته تدریس
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            پایه
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            رتبه کنکور
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            سابقه تدریس
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            دانشگاه
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            مدرک
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            توضیحات
+                          </th>
+                          <th
+                            scope="col"
+                            class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                            عکس
+                          </th>
+                          <th
+                          scope="col"
+                          class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                          وضعیت
+                        </th>
+                        <th
+                        scope="col"
+                        class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-center text-md uppercase">
+                        ایجاد شده در
+                        </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <div class="flex items-center">
+                              <div class="mr-3">
+                                <p class="text-gray-900 whitespace-no-wrap">
+                                  احسان فولادی
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              کامپیوتر
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              دوازدهم
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              2000
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              5سال
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              فرودسی
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              لیسانس کامپیوتر
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              من احسان فولادی هستم
+                            </p>
+                          </td>
+                          <td
+                            class="border-b border-gray-200 bg-white text-sm">
+                            <img class="w-full h-full object-cover rounded" src="img/gallery-img-01.jpg" alt="">
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <span class="relative inline-block px-3 py-1 text-green-900 leading-tight">
+                              <span
+                                aria-hidden="true"
+                                class="absolute inset-0 bg-green-200 opacity-50 rounded-full">
+                              </span>
+                              <span class="relative"> فعال </span>
+                            </span>
+                            <span class="relative inline-block px-3 py-1 mt-2 text-indigo-900 leading-tight">
+                              <span
+                                aria-hidden="true"
+                                class="absolute inset-0 bg-indigo-200 opacity-50 rounded-full">
+                              </span>
+                              <span class="relative"> ویرایش </span>
+                            </span>
+                            <span class="relative inline-block px-3 py-1 mt-2 text-yellow-900 leading-tight">
+                              <span
+                                aria-hidden="true"
+                                class="absolute inset-0 bg-yellow-200 opacity-50 rounded">
+                              </span>
+                              <span class="relative"> درانتضار تایید ادمین </span>
+                            </span>
+                          </td>
+                          <td
+                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm font-bold">
+                            <p class="text-gray-900 whitespace-no-wrap">
+                              ۱۴۰۰-۰۷-۱۲
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer -->
+          <footer class="relative block bg-white rounded-lg px-2 py-3">
+              <div class="flex justify-between">
+                  <span class="text-md font-semibold hover:text-gray-500">&copy; هرگونه کپی برداری حرام است</span>
+                  <span id="time" class="font-semibold hover:text-gray-500 hover:underline"></span>
+              </div>
+          </footer>
+          <!-- End Footer -->
+        </div>
+      </div>
+    </div>
+    <script>
+      let mobile = document.querySelector(".mobile");
+      let profile = document.querySelector(".profile");
+      let profile_menu = document.querySelector(".profile-menu");
+      let menu = document.querySelector(".menu");
+      let Time = document.getElementById("time");
+      menu.addEventListener("click", () => {
+        mobile.classList.toggle("hidden");
+      });
+      profile.addEventListener("click", () => {
+        profile_menu.classList.toggle("hidden");
+      });
+      Time.innerHTML += new Date().getFullYear();
+    </script>
+  </body>
+</html>
